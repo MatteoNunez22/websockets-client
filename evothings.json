@@ -1,8 +1,14 @@
 {
-  "uuid": "14ef59c7-c08a-4f24-a6c4-ccffabea5313",
+  "uuid": "de94d3e0-5622-4716-ae19-7491228ae015",
   "plugins": [
     {
       "name": "cordova-plugin-chrome-apps-sockets-tcp"
+    },
+    {
+      "name": "cordova-plugin-chrome-apps-sockets-tcpserver"
+    },
+    {
+      "name": "cordova-plugin-chrome-apps-sockets-udp"
     },
     {
       "name": "cordova-plugin-chrome-apps-system-network"
@@ -10,6 +16,9 @@
     {
       "name": "cordova-plugin-http",
       "version": "v0.2.2"
+    },
+    {
+      "name": "cordova-plugin-network-information"
     }
   ],
   "libraries": [

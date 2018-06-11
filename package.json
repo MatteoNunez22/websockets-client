@@ -1,0 +1,24 @@
+{
+  "name": "websockets-client",
+  "version": "1.0.0",
+  "description": "Client-side of Haptic Simon Multiplayer modes",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatteoNunez22/websockets-client.git"
+  },
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatteoNunez22/websockets-client/issues"
+  },
+  "homepage": "https://github.com/MatteoNunez22/websockets-client#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "npm": "^6.1.0",
+    "socket.io": "^2.1.1"
+  }
+}
