@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no,
+		shrink-to-fit=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+
+    <title>WebSockets 101</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
+    <link href="styles.css" rel="stylesheet" />
+    <style>
+        @import 'ui/css/evothings-app.css';
+
+    </style>
+
+    <script>
+        // Redirect console.log to Evothings Workbench.
+        if (window.hyper && window.hyper.log) { console.log = hyper.log }
+    </script>
+
+</head>
+
+<body ontouchstart="">
+
+    <header>
+        <button class="back" onclick="history.back()">
+            <img src="ui/images/arrow-left.svg" />
+        </button>
+
+        <img class="logotype" src="ui/images/logo.svg" alt="Evothings" />
+
+    </header>
+
+    <div id="mario-chat">
+        <div id="chat-window">
+            <div id="output"></div>
+            <div id="feedback"></div>
+        </div>
+        <input id="handle" type="text" placeholder="Handle">
+        <input id="message" type="text" placeholder="Message">
+        <button id="send">Send</button>
+    </div>
+
+    <script src="cordova.js"></script>
+    <script src="libs/evothings/evothings.js"></script>
+    <script src="libs/evothings/ui/ui.js"></script>
+    <!-- TODO: Add libraries that you need -->
+
+</body>
+    <script src="chat.js"></script>
+</html>

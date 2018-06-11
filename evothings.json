@@ -1,0 +1,30 @@
+{
+  "uuid": "14ef59c7-c08a-4f24-a6c4-ccffabea5313",
+  "plugins": [
+    {
+      "name": "cordova-plugin-chrome-apps-sockets-tcp"
+    },
+    {
+      "name": "cordova-plugin-chrome-apps-system-network"
+    },
+    {
+      "name": "cordova-plugin-http",
+      "version": "v0.2.2"
+    }
+  ],
+  "libraries": [
+    {
+      "name": "jquery",
+      "version": "2.1.1"
+    }
+  ],
+  "name": "hapticshoe_controller",
+  "title": "Evothings Client",
+  "description": "App oneline description.",
+  "long-description": "App long description.",
+  "version": "",
+  "author-name": "Evothings",
+  "author-email": "build@evothings.com",
+  "author-url": "https://evothings.com",
+  "cordova-id": "com.evothings.samples.hapticshoe.controller"
+}
